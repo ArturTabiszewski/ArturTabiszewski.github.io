@@ -16,15 +16,19 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<div id="container">
+	
+	{% include sidemenu.html %}
 
-{% include sidemenu.html %}
-
-{{ content }}
-<!--
-<div class="page-content">
-  <div class="wrapper"> {{ content }} </div>
+	{{ content }}
+	<!--
+	<div class="page-content">
+	  <div class="wrapper"> {{ content }} </div>
+	</div>
+	-->
 </div>
--->
+
+
 {% include footer.html %}
 </body>
 </html>

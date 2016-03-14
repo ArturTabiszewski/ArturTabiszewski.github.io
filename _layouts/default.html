@@ -4,7 +4,7 @@
 
 <body>
 
- {% include header.html %} 
+ 
 
 <!-- fb comments -->
 <div id="fb-root"></div>
@@ -17,7 +17,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="container">
-	
+	{% include header.html %} 
 	{% include sidemenu.html %}
 
 	{{ content }}

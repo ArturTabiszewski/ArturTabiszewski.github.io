@@ -114,6 +114,7 @@ a {
 	font-size: 14px;
 	padding-top: 4px;
 	margin: 0;
+	color: #8b8b8b;
 }
 
 #tutoMenu li{
@@ -459,8 +460,8 @@ input[type=email], input[type=email]:focus{
 }
 
 #post h2 {
-	font-size: 12px;
-	
+	font-size: 14px;
+	margin-top: 0;
 	padding-bottom:20px;
 	color: #8b8b8b;
 }
@@ -490,8 +491,9 @@ input[type=email], input[type=email]:focus{
 	font-family: 'Quicksand-Regular';
 	padding:0;
 	margin:0;
-	padding-top: 5px;
+	padding-top: 2px;
 	font-size: 14px;
+	color: #8b8b8b;
 	text-transform: uppercase;
 }
 
@@ -499,9 +501,12 @@ input[type=email], input[type=email]:focus{
 	margin-bottom:0px;
 }
 
-/*
+
 .post-content {
 	font-family: 'Quicksand-Regular';
 	font-size: 15px;
 }
-*/
+
+#nav {
+	font-family: 'Quicksand-Bold';
+}

@@ -50,6 +50,7 @@ h3 {
 	margin-top: -0.3em;
 }
 
+
 h4 {
 	font-family: 'Quicksand-Regular';
 	font-size: 0.875em;
@@ -484,3 +485,23 @@ input[type=email], input[type=email]:focus{
 	font-size:15px;
 	margin-top: 0;
 }
+
+.post-meta {
+	font-family: 'Quicksand-Regular';
+	padding:0;
+	margin:0;
+	padding-top: 5px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.post-title {
+	margin-bottom:0px;
+}
+
+/*
+.post-content {
+	font-family: 'Quicksand-Regular';
+	font-size: 15px;
+}
+*/

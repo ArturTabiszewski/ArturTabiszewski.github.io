@@ -33,6 +33,7 @@ h1 {
 	font-size:	2.250em;
 	letter-spacing: -0.045em;
 	margin-bottom: 0.3em;
+	text-transform: uppercase;
 }
 
 h2 {
@@ -109,6 +110,8 @@ a {
 
 #tutoMenu p{
 	font-family: 'Quicksand-Regular';
+	font-size: 14px;
+	padding-top: 4px;
 	margin: 0;
 }
 
@@ -176,31 +179,37 @@ a {
 	text-transform: uppercase;
 }
 
-#content {
+
+
+#content, #contentPostList {
 	max-width: 666px;
 	float: left;
 	width: 100%;
+}
+
+#contentPostList {
+	padding-bottom: 150px;
 }
 
 #content h1 {
 	margin: 0;	
 }
 
-#content h2 {
+#contentPostList h2 {
 	font-family: 'Quicksand-Regular';
 	font-size: 14px;
 	margin-top: 5px;
 	text-transform: uppercase;
 }
 
-#content p {
+#contentPostList p {
 	font-family: 'Quicksand-Regular';
 	line-height: 20px;
 	font-size: 15px;
 	letter-spacing: -1px;
 }
 
-#content a img {
+#contentPostList a img {
 	padding-top: 1px;	
 	padding-bottom: 1px;
 }
@@ -421,4 +430,57 @@ input[type=email], input[type=email]:focus{
 	color: #FFF;
 	text-transform: uppercase;
 	margin-top: 25px;
+}
+
+/* post list */
+
+#post {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	border-bottom:1px;
+	border-bottom-style:solid;
+	border-bottom-color: #b8ac94;
+	padding-bottom:25px;
+	float:left;
+	width: 100%;
+}
+
+#post #tagList {
+	display:inline-block;
+	position:relative;
+	bottom:3px;
+}
+
+#post  h1 {
+	font-size: 25px;
+	display: inline-block;
+	
+}
+
+#post h2 {
+	font-size: 12px;
+	
+	padding-bottom:20px;
+	color: #8b8b8b;
+}
+
+#post #prev{
+	float:left;
+	padding-left:25px;
+	max-width: 410px;
+	padding-bottom: 5px;
+	
+}
+
+#post img {
+	float:left;
+	border: 1px;
+	border-style:solid;
+	border-color: #aeaead;
+
+}
+
+#post p{
+	font-size:15px;
+	margin-top: 0;
 }

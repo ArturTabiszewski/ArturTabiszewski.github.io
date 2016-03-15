@@ -2,22 +2,26 @@
 layout: default
 ---
 
-<div class="home">
+<div id="contentPostList">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1>Recent posts</h1>
 
-  <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<div id="post">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+        	<ul id="tagList">
+				<li id="java"><a href="#">JAVA</a></li>
+    		</ul>
+			<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+            <h2>{{ post.date | date: "%b %-d, %Y" }}</h2>
+            <img src="images/postImg2.jpg" width="221" height="123">
+            <div id="prev">
+            <p>
+           {{ post.content | strip_html | truncatewords:55}}
+            </p>
+             </div>
+		</div>
+
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

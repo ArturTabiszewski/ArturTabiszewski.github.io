@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "To jest drugi post!"
 date:   2016-02-29 22:59:27 +0100
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Lorem ipsum dolor sit amet eros. Nullam semper nisl, semper magna tincidunt wisi adipiscing elit. Proin non eros pellentesque leo. Ut tempus enim ac lacus. Maecenas mi quam ipsum, rutrum posuere a, sodales sapien pede eget orci luctus quam in turpis in ligula ut lacus lacus tincidunt turpis egestas. Mauris vitae ante. Integer nibh sit amet, consectetuer ut, faucibus quis, dui. Aliquam interdum pellentesque at, egestas velit. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Donec enim eu nibh. Maecenas mi eget imperdiet faucibus ipsum dolor nulla, accumsan nisl sapien auctor euismod. Integer mi at consectetuer tincidunt est congue et, posuere sed, sodales nibh nulla, accumsan sed, venenatis consequat. Morbi congue arcu. Aenean quis blandit eros, sagittis malesuada. Ut blandit, dui auctor ligula. Nulla consectetuer, augue eu sapien. Vestibulum quam. Vestibulum ante sodales pretium convallis. Donec pharetra lobortis augue nec massa. 
 
-Jekyll also offers powerful support for code snippets:
+Duis mauris nibh consectetuer sagittis lorem. In hac habitasse platea dictumst. Sed elementum, sapien sed massa in dolor sed interdum mi mauris, consectetuer adipiscing metus. Proin posuere. In tempus. Pellentesque eu nulla. Curabitur ultrices posuere ante sit amet lacus. Nulla augue quis faucibus et, faucibus orci et.
 
 {% highlight java %}
 package atmos.tool2d;

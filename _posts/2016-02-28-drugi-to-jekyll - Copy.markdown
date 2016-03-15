@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "To jest drugi post!"
-date:   2016-02-29 22:59:27 +0100
+date:   2016-02-28 22:59:27 +0100
 categories: jekyll update
 ---
 Lorem ipsum dolor sit amet eros. Nullam semper nisl, semper magna tincidunt wisi adipiscing elit. Proin non eros pellentesque leo. Ut tempus enim ac lacus. Maecenas mi quam ipsum, rutrum posuere a, sodales sapien pede eget orci luctus quam in turpis in ligula ut lacus lacus tincidunt turpis egestas. Mauris vitae ante. Integer nibh sit amet, consectetuer ut, faucibus quis, dui. Aliquam interdum pellentesque at, egestas velit. 

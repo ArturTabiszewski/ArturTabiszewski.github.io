@@ -6,12 +6,12 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} | <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     
    <ul id="tagList">
-        <li id="gameart"><a href="#">GAME ART</a></li>
-        <li id="code"><a href="#">CODE</a></li>
-        <li id="java"><a href="#">JAVA</a></li>
+   	{% for tag in page.tags %}
+        <li id="{{ tag }}"><a href="#">{{ tag }}</a></li>
+	{% endfor %}
    </ul>
    
   </header>
@@ -20,13 +20,13 @@ layout: default
   <div id="content">
     {{ content }}
     
-        <div id="navi">
+    <div id="navi">
       <div id="nav">
       
       
        {% if page.previous.url %}
-    <div id="prev"> <a href="{{page.previous.url}}"><img src="{{ site.baseurl }}/images/prev.png" width="5" height="5">PREVIOUS ENTRIE</a></div>
-  {% endif %}
+    		<div id="prev"> <a href="{{page.previous.url}}"><img src="{{ site.baseurl }}/images/prev.png" width="5" height="5">PREVIOUS ENTRIE</a></div>
+  		{% endif %}
   
   {% if page.next.url %}
   <div id="sep"> <img src="{{ site.baseurl }}/images/sep.png" width="1" height="20"> </div>

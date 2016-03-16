@@ -10,7 +10,9 @@ layout: default
 		<div id="post">
 
         	<ul id="tagList">
-				<li id="java"><a href="#">JAVA</a></li>
+				   	{% for tag in post.tags %}
+        <li id="{{ tag }}"><a href="#">{{ tag }}</a></li>
+	{% endfor %}
     		</ul>
 			<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
             <h2>{{ post.date | date: "%b %-d, %Y" }}</h2>
@@ -23,5 +25,9 @@ layout: default
 		</div>
 
     {% endfor %}
+    
+    
+    
+    
 
 </div>

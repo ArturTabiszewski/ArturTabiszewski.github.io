@@ -50,7 +50,7 @@ usuwa powtarzajace sie tagi
 
       <ul id="tagList">
       {% for tag in tags %}
-        <li id="{{ tag }}"><a href="#{{ tag | slugify }}">{{ tag }}</a></li>
+        <li id="{{ tag }}"><a href="{{ site.baseurl }}/tag/tag.html#{{ tag | slugify }}">{{ tag }}</a></li>
        {% endfor %}
       </ul>
     </div>

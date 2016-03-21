@@ -13,6 +13,9 @@ categories: jekyll update
 
 
 
-## A New Post
+Nowy post##
+![img.jpg]({{site.baseurl}}/media/img.jpg)
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formattin os cos costam cos tamg help.

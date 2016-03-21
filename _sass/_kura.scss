@@ -1,11 +1,10 @@
 .gwd-div-jvg1 {
 	position:absolute;
-	top:500px;
-	left:200px;
-	bottom:300px;
+	bottom:180px;
     width: 286px;
     height: 315px;
 	padding:0px;
+	left: 0px;
 }
 
 
@@ -676,4 +675,10 @@
         -moz-transform: translate3d(-70px, -33px, 0px) rotateZ(0deg) scale3d(1, 0.8, 1);
         -moz-animation-timing-function: linear;
     }
+}
+
+@media screen and (max-height: 600px){
+	.gwd-div-jvg1 {
+    	left: -10000px;
+	}
 }

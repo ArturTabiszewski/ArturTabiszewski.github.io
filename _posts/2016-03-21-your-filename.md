@@ -18,4 +18,4 @@ Nowy post##
 
 
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formattin os cos costam cos tamg help.
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formattin os cos cosnnntam cos tamg help.

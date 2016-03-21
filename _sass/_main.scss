@@ -106,7 +106,7 @@ a {
 	padding-bottom: 0;
 	margin-bottom: 0;
 	margin-top: 0;
-		text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 #tutoMenu p{
@@ -121,9 +121,54 @@ a {
 	padding-top: 24px;
 }
 
-#tags {
-	
+#tutoMenu li a{
+	position: relative;
+	text-decoration: none;
+	-webkit-transition: text-decoration 0.5s;
 }
+
+
+
+
+#tutoMenu li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#tutoMenu li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #tagList {
 	list-style-type: none;	
@@ -456,7 +501,32 @@ input[type=email], input[type=email]:focus{
 #post  h1 {
 	font-size: 25px;
 	display: inline-block;
-	
+}
+
+#post  h1 a {
+	position:relative;
+}
+
+
+#post  h1 a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#post  h1 a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 #post h2 {
@@ -509,4 +579,57 @@ input[type=email], input[type=email]:focus{
 
 #nav {
 	font-family: 'Quicksand-Bold';
+}
+
+
+
+
+#tagListPosts p {
+	font-family: 'Quicksand-Regular';
+	font-size: 14px;
+	padding-top: 4px;
+	margin: 0;
+	color: #8b8b8b;
+	display: inline;
+}
+
+#tagListPosts{
+	list-style-type: none;	
+	padding-left: 0;
+	padding-bottom: 12px;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+#tagListPosts li{
+	padding-bottom: 2px;
+	padding-top: 5px;
+}
+
+#tagListPosts li a{
+	position: relative;
+	text-decoration: none;
+	-webkit-transition: text-decoration 0.5s;
+}
+
+#tagListPosts li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#tagListPosts li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }

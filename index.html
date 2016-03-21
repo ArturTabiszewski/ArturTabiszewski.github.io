@@ -11,7 +11,7 @@ layout: default
 
         	<ul id="tagList">
 				   	{% for tag in post.tags %}
-        <li id="{{ tag }}"><a href="#">{{ tag }}</a></li>
+        <li id="{{ tag }}"><a href="{{ site.baseurl }}/tag.html#{{ tag | slugify }}">{{ tag }}</a></li>
 	{% endfor %}
     		</ul>
 			<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>

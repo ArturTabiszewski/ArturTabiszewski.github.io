@@ -10,7 +10,7 @@ layout: default
     
    <ul id="tagList">
    	{% for tag in page.tags %}
-        <li id="{{ tag }}"><a href="#">{{ tag }}</a></li>
+        <li id="{{ tag }}"><a href="{{ site.baseurl }}/tag.html#{{ tag | slugify }}">{{ tag }}</a></li>
 	{% endfor %}
    </ul>
    

@@ -26,3 +26,5 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
     trzecia
 
 sdadad
+
+![1580216.jpg]({{site.baseurl}}/media/1580216.jpg)

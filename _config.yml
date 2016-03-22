@@ -40,16 +40,16 @@ prose:
           element: "text"
           label: "title"
           value: ""
-	  -	 name: "date"
-	     field: 
-		  element: "hidden"
-		  label: "date"
-		  value: CURRENT_DATETIME
-	  - name: "categories"
-	     field:
-		   element: "hidden"
-		   label: "categories"
-		   value: "jekyll update"
+      - name: "date"
+	field: 
+	  element: "hidden"
+	  label: "date"
+	  value: CURRENT_DATETIME
+      - name: "categories"
+        field:
+	  element: "hidden"
+	  label: "categories"
+	  value: "jekyll update"
       - name: "tags"
         field:
           element: "multiselect"

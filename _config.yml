@@ -24,17 +24,13 @@ markdown: kramdown
 
 highlighter: rouge
 
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://arturtabiszewski.github.io/'
-  relativeLinks: 'http://arturtabiszewski.github.io/links.jsonp'
   media: 'media'
   metadata:
     _posts:
-      - name: "categories"
-        field:
-          element: "hidden"
-          value: "jekyll update"
       - name: "layout"
         field:
           element: "hidden"
@@ -42,13 +38,18 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Title"
+          label: "title"
           value: ""
-      - name: "splash"
-        field:
-          element: "text"
-          label: "Splash image"
-          value: ""
+	  -	 name: "date"
+	     field: 
+		  element: "hidden"
+		  label: "date"
+		  value: CURRENT_DATETIME
+	  - name: "categories"
+	     field:
+		   element: "hidden"
+		   label: "categories"
+		   value: "jekyll update"
       - name: "tags"
         field:
           element: "multiselect"
@@ -63,18 +64,3 @@ prose:
               value: "code"
             - name: "GameArt"
               value: "gameart"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""

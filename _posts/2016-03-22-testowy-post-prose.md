@@ -11,5 +11,7 @@ title: testowy post prose
 ---
 
 ## A New Post
-Testowy post prose
+Testowy post prose1. item
+2. item
+3. item
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.

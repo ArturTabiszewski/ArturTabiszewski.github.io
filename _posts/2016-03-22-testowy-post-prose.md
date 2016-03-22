@@ -6,7 +6,7 @@ tags:
   - java
   - code
   - gameart
-published: false
+published: true
 title: testowy post prose
 ---
 

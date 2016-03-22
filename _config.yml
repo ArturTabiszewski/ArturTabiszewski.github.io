@@ -24,16 +24,6 @@ markdown: kramdown
 
 highlighter: rouge
 
-
----
-layout: post
-title:  "To jest pierwszy post!"
-date:   2016-02-27 22:59:27 +0100
-categories: jekyll update
-tags: [java, gameart]
----
-
-
 prose:
   rooturl: '_posts'
   siteurl: 'http://arturtabiszewski.github.io/'

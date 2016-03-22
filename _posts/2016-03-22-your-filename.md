@@ -5,7 +5,7 @@ splash: ""
 tags: 
   - java
 published: true
-title: ""
+title: "Jakis tytul"
 ---
 
 ## A New Post

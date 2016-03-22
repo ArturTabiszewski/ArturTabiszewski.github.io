@@ -41,7 +41,7 @@ prose:
           label: "title"
           value: ""
       - name: "date"
-	field: 
+        field: 
           element: "hidden"
           label: "date"
           value: CURRENT_DATETIME

@@ -2,7 +2,8 @@
 layout: default
 category: posts
 splash: ""
-tags: null
+tags: 
+  - java
 published: false
 title: ""
 ---

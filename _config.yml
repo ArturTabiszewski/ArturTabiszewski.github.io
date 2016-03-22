@@ -26,7 +26,7 @@ highlighter: rouge
 
 
 prose:
-  rooturl: '_posts'
+  rooturl: '_drafts'
   siteurl: 'http://arturtabiszewski.github.io/'
   media: 'media'
   metadata:

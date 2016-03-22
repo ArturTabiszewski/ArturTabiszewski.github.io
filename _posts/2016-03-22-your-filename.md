@@ -4,7 +4,7 @@ category: posts
 splash: ""
 tags: 
   - java
-published: false
+published: true
 title: ""
 ---
 
